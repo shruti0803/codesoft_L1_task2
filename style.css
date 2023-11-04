@@ -1,0 +1,271 @@
+*{
+    
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    position:relative;
+    overflow: hidden;
+    
+}
+#page{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(184, 184, 218);
+    position: relative;
+    background-image: url("https://img.freepik.com/premium-vector/abstract-colorful-sales-background-concept_250207-246.jpg");
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width:100%;
+    height: 5%;
+    padding: 0px 30px;
+}
+.nav>input{
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.center-nav{
+   gap: 247px;
+   display: flex;
+}
+.center-nav>a{
+    text-decoration: none;
+    color: azure;
+    font-weight: 500;
+    font-size: larger;
+}
+#page>img{
+    width:30%;
+    height: 90%;
+    position: absolute;
+    right: 5%;
+    top:5%;
+}
+.name{
+    font-size: 45px;
+}
+.about{
+    font-size: 23px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text{
+    top:10%;
+    position: relative;
+    left:5%;
+    background-color: rgb(224, 240, 238);
+    width:45%;
+    height: 75%;
+    border: 3px solid;
+    transition: box-shadow 0.3 ease;
+    border-radius: 15px;
+    padding: 32px;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+.text:hover{
+     border:4px solid rgb(218, 68, 216);
+     box-shadow:5px 5px 5px  darkmagenta ;
+}
+.button1{
+  align-items: center;
+}
+button{
+  background-color: rgb(33, 209, 150);
+  padding: 12px;
+  margin-left: 12px;
+}
+button:hover{
+ 
+  background-color: rgb(62, 62, 128);
+  color:white;
+}
+#page2{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://extendthemes.com/demos/mesmerize-pro-portfolio/wp-content/uploads/sites/16/2016/06/cropped-background-2726039-6x4.jpg" );
+    background-color: rgb(184, 218, 190);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+  
+  .first{
+    display: flex;
+    /* margin-left: 350px; */
+    justify-content: center;
+  }
+  .box{
+    margin:32px;
+    margin-top: 82px;
+    border: 4px solid ;
+    background-color: rgb(230, 138, 105);
+    transition: background-color 0.3s ease;
+    transition: box-shadow 0.3s ease;
+    
+  }
+  .box:hover{
+    background-color: rgb(70, 226, 43);
+    border: 4px solid rgb(22, 107, 0);
+  }
+  .second{
+    display: flex;
+    justify-content: center;
+  
+  }
+  #page3{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(219, 170, 10);
+    background-image: url("https://img.freepik.com/premium-vector/abstract-background-3d-light-blue-yellow-white-geometric-squares-shape-design-paper-cut-style_518299-37.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.project{
+    background-color: rgb(17, 155, 160);
+    font-size: 32px;
+    font-weight: 400;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    padding-left: 654px;;
+}
+.con{
+    display: flex;
+    border: 3px solid;
+    margin: 35px;
+    padding: 23px;
+    align-items: center;
+    justify-content: center;
+    /* animation: dropFromTop 10s forwards;
+    opacity: 0; */
+}
+/* @keyframes dropFromTop{
+    0%{
+        transform :translateY(-100%);
+    }
+    100%{
+   transform: translateY(0);
+   opacity: 1;
+    }
+} */
+.weather{
+    opacity:0.09;
+    transition: opacity 0.3s ease;
+    border:3px solid;
+    padding: 12px;
+    margin: 23px;
+    background-color: rgb(31, 195, 83);
+}
+.weather:hover{
+    opacity: 1;
+}
+.link{
+    text-decoration: none;
+    align-items: center;
+}
+.landing{
+    opacity:0.09;
+    transition: opacity 0.3s ease;
+    border:3px solid;
+    padding: 12px;
+    margin: 23px;
+    background-color: rgb(31, 195, 83);
+}
+.landing:hover{
+    opacity: 1;
+}
+.calculator:hover{
+    opacity: 1;
+}
+.calculator{
+    opacity:0.09;
+    transition: opacity 0.3s ease;
+    margin: 23px;
+    border:3px solid;
+    padding: 12px;
+    background-color: rgb(31, 195, 83);
+
+}
+#page4{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(167, 8, 87);
+    background-image: url("https://img.freepik.com/free-photo/3d-render-concept-phone-receiver-3d-art-design-illustration_460848-9667.jpg");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+    
+  .skills{
+    background-color: rgb(17, 155, 160);
+    font-size: 32px;
+    font-weight: 400;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+  
+    text-align: center;
+  }
+  .contact{
+    text-align: center;
+    padding: 34px;
+    font-size: larger;
+    font-weight: 400;
+    font-family: monospace;
+  }
+  .det{
+    background-color: rgb(29, 31, 31);
+    margin: 56px 345px;
+    padding: 23px;
+
+  }
+  input{
+    width: 100%;
+    height: 100%;
+  }
+  .soc{
+    text-align: center;
+  }
+  .med{
+    justify-content: center;
+    align-items: center;
+   text-align: center;
+  }
+  .fa {
+    padding: 20px;
+    margin: 16px;
+    font-size: 50px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+ 
+  
+  
+  .fa-google{
+    background:red;
+    color:white;
+  }
+  .fa-linkedin{
+    background:rgb(67, 83, 229);
+    color:white;
+  }
+  .fa-instagram{
+    background:rgb(236, 52, 73);
+    color:white;
+  }
+  .fa-github{
+    background:rgb(10, 10, 10);
+    color:rgb(227, 223, 223);
+  }
